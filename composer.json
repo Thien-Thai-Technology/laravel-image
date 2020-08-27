@@ -20,7 +20,7 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": ">=5.1.*",
-        "guzzlehttp/guzzle": "5.3|~6.0",
+        "guzzlehttp/guzzle": ">=5.3",
         "imagine/imagine": "0.6.*"
     },
     "require-dev": {
@@ -32,8 +32,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Folklore\\Image\\": "src/",
-            "Folklore\\Image\\Tests": "tests/"
+            "TTTech\\Image\\": "src/",
+            "TTTech\\Image\\Tests": "tests/"
         }
     },
     "autoload-dev": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Folklore\\Image\\ImageServiceProvider"
+                "TTTech\\Image\\ImageServiceProvider"
             ],
             "aliases": {
-                "Image": "Folklore\\Image\\Facades\\Image"
+                "Image": "TTTech\\Image\\Facades\\Image"
             }
         }
     }
