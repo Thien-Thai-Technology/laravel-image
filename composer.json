@@ -32,8 +32,8 @@
     },
     "autoload": {
         "psr-0": {
-            "TTTech\\Image\\": "src/",
-            "TTTech\\Image\\Tests": "tests/"
+            "Folklore\\Image\\": "src/",
+            "Folklore\\Image\\Tests": "tests/"
         }
     },
     "autoload-dev": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TTTech\\Image\\ImageServiceProvider"
+                "Folklore\\Image\\ImageServiceProvider"
             ],
             "aliases": {
-                "Image": "TTTech\\Image\\Facades\\Image"
+                "Image": "Folklore\\Image\\Facades\\Image"
             }
         }
     }
